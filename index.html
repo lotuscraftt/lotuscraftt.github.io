@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PRIMARY SEO -->
+  <title>LotusCraftt | Web Developer & Creative Technologist</title>
+
+  <meta name="description"
+    content="Explore LotusCraftt, the portfolio of a web developer creating modern, responsive and creative websites, frontend experiences and digital solutions.">
+
+  <meta name="author" content="LotusCraftt">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080808">
+
+  <!-- CANONICAL URL -->
+  <link rel="canonical" href="https://lotuscraftt.github.io/">
+
+  <!-- FAVICON: Browser Tab Logo -->
+  <link rel="icon" type="image/png" href="img/Logo.png">
+
+  <!-- APPLE TOUCH ICON -->
+  <link rel="apple-touch-icon" href="img/Logo.png">
+
+  <!-- OPEN GRAPH: SOCIAL SHARING -->
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="LotusCraftt | Web Developer & Creative Technologist">
+
+  <meta property="og:description"
+    content="Discover LotusCraftt's web development projects, modern websites, responsive interfaces and creative digital experiences.">
+
+  <meta property="og:url" content="https://lotuscraftt.github.io/">
+
+  <meta property="og:site_name" content="LotusCraftt">
+
+  <!-- Logo shown when sharing the website -->
+  <meta property="og:image" content="https://lotuscraftt.github.io/img/Logo.png">
+
+  <meta property="og:image:alt" content="LotusCraftt Logo">
+
+  <meta property="og:locale" content="en_IN">
+
+  <!-- PERFORMANCE -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://lotuscraftt.github.io/#website",
+        "url": "https://lotuscraftt.github.io/",
+        "name": "LotusCraftt",
+        "description": "Portfolio showcasing web development, frontend development and creative digital experiences.",
+        "inLanguage": "en-IN",
+        "publisher": {
+          "@id": "https://lotuscraftt.github.io/#person"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://lotuscraftt.github.io/#person",
+        "name": "Akshaet Shukla",
+        "url": "https://lotuscraftt.github.io/",
+        "jobTitle": "Web Developer & Creative Technologist",
+        "image": "https://lotuscraftt.github.io/img/Logo.png",
+        "brand": {
+          "@id": "https://lotuscraftt.github.io/#brand"
+        },
+        "sameAs": [
+          "https://instagram.com/akshaetshukla.dev"
+        ],
+        "knowsAbout": [
+          "Web Development",
+          "Frontend Development",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Responsive Web Design",
+          "UI/UX Design",
+          "Website Development",
+          "Website Optimization",
+          "Web Performance"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://lotuscraftt.github.io/#brand",
+        "name": "LotusCraftt",
+        "url": "https://lotuscraftt.github.io/",
+        "logo": "https://lotuscraftt.github.io/img/Logo.png",
+        "description": "Creative web development brand focused on modern websites, responsive interfaces and digital experiences."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://lotuscraftt.github.io/#webpage",
+        "url": "https://lotuscraftt.github.io/",
+        "name": "LotusCraftt | Web Developer & Creative Technologist",
+        "description": "Explore LotusCraftt's portfolio of modern websites, frontend development projects and creative digital experiences.",
+        "isPartOf": {
+          "@id": "https://lotuscraftt.github.io/#website"
+        },
+        "about": {
+          "@id": "https://lotuscraftt.github.io/#person"
+        },
+        "inLanguage": "en-IN"
+      }
+    ]
+  }
+  </script>
+
+</head>
+
+<body>
+  <div class="site-shell">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <div class="ambient-background" aria-hidden="true">
+      <div class="ambient-grid"></div>
+      <div class="ambient-glow ambient-glow-one"></div>
+      <div class="ambient-glow ambient-glow-two"></div>
+      <div class="ambient-glow ambient-glow-three"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="nav-inner">
+        <button class="brand" data-scroll="home" aria-label="Go to homepage" type="button">
+
+          <img src="img/Logo.png" alt="LotusCraftt Logo" class="brand-logo">
+
+          <span class="brand-name">LOTUSCRAFTT</span>
+
+        </button>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <button data-scroll="work" type="button">Work</button>
+          <button data-scroll="about" type="button">About</button>
+          <button data-scroll="capabilities" type="button">Capabilities</button>
+          <button data-scroll="process" type="button">Process</button>
+        </nav>
+
+        <button class="nav-contact" data-scroll="contact" type="button">
+          Let's talk
+          <span class="icon" aria-hidden="true">↗</span>
+        </button>
+
+        <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Toggle navigation menu"
+          aria-expanded="false" type="button">
+          <span class="menu-lines" aria-hidden="true">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+        </button>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <div class="mobile-nav-inner">
+          <div class="mobile-nav-label">MENU</div>
+          <nav aria-label="Mobile navigation">
+            <button data-scroll="work" type="button">
+              <span>01</span>
+              <strong>Work</strong>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button data-scroll="about" type="button">
+              <span>02</span>
+              <strong>About</strong>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button data-scroll="capabilities" type="button">
+              <span>03</span>
+              <strong>Capabilities</strong>
+              <b aria-hidden="true">↗</b>
+            </button>
+            <button data-scroll="process" type="button">
+              <span>04</span>
+              <strong>Process</strong>
+              <b aria-hidden="true">↗</b>
+            </button>
+          </nav>
+
+          <button class="mobile-contact" data-scroll="contact" type="button">
+            <span>Let's talk</span>
+            <b aria-hidden="true">↗</b>
+          </button>
+
+          <div class="mobile-nav-footer">
+            <span>LOTUSCRAFTT</span>
+            <span>© 2026</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-content container">
+          <div class="availability-pill reveal">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Available for opportunities</span>
+            <span aria-hidden="true">✦</span>
+          </div>
+
+          <p class="hero-eyebrow reveal">
+            Web Developer <span aria-hidden="true">·</span> Creative Technologist
+          </p>
+
+          <h1 id="hero-title" class="hero-title reveal">
+            Crafting <span class="gradient-text">digital</span> <br> experiences
+            <span class="hero-dot" aria-hidden="true">.</span>
+          </h1>
+
+          <p class="hero-description reveal">
+            LotusCraftt creates modern digital experiences with a strong focus on performance,
+            usability, and visual precision. From refined frontend interfaces to complete
+            web solutions, ideas and business requirements are transformed into fast,
+            responsive, and purposeful websites through thoughtful design and disciplined development.
+          </p>
+
+          <div class="hero-actions reveal">
+            <button class="button button-primary" data-scroll="work" type="button">
+              Explore my work <span aria-hidden="true">→</span>
+            </button>
+            <button class="button button-secondary" data-scroll="contact" type="button">
+              Start a conversation <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="hero-features reveal">
+            <span>✓ Clean architecture</span>
+            <span>✓ Responsive by default</span>
+            <span>✓ Performance focused</span>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="visual-card visual-card-main">
+              <div class="visual-card-top">
+                <span class="mini-label">L.</span>
+                <span>Build · Design · Scale</span>
+              </div>
+              <div class="visual-center">
+                <span>Focus</span>
+                <strong>Web Experiences</strong>
+              </div>
+              <div class="visual-card-bottom">
+                <span>Approach</span>
+                <strong>Detail first</strong>
+              </div>
+            </div>
+            <div class="floating-card floating-card-one">
+              <span>◉</span>
+              <span>Web native</span>
+            </div>
+            <div class="floating-card floating-card-two">
+              <span>ϟ</span>
+              <span>Fast by design</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="scroll-indicator" data-scroll="work" type="button" aria-label="Scroll to selected work">
+          <span>Scroll to explore</span>
+          <span aria-hidden="true">↓</span>
+        </button>
+      </section>
+
+      <!-- WORK / PROJECTS SECTION -->
+      <!-- WORK / PROJECTS SECTION -->
+      <section id="work" class="section work-section" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-intro reveal">
+            <span class="section-eyebrow">Selected work</span>
+            <h2 id="work-title">Work that speaks before I do.</h2>
+            <p>
+              A curated selection of digital experiences crafted through thoughtful
+              design, purposeful interaction, visual precision, and refined web development.
+            </p>
+          </div>
+
+          <!-- PROJECT GRID -->
+          <div class="projects-grid">
+
+            <!-- PROJECT 01 — AMP COLLEGE -->
+            <article class="project-card reveal" id="amp-college">
+              <div class="project-preview project-slider" data-slider data-autoplay="true" data-interval="4500"
+                aria-label="AMP College project gallery">
+                <div class="preview-image-wrapper">
+                  <div class="project-slide active">
+                    <img src="img/ampcollege1.jpg" alt="AMP College educational website" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/ampcollege2.jpg" alt="AMP College responsive website interface" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/ampcollege3.jpg" alt="AMP College digital experience" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-image-overlay" aria-hidden="true"></div>
+                  <button class="slider-arrow slider-prev" type="button"
+                    aria-label="Previous AMP College image">←</button>
+                  <button class="slider-arrow slider-next" type="button" aria-label="Next AMP College image">→</button>
+                  <div class="preview-label">
+                    <span>State Level Tech Champion</span>
+                    <span aria-hidden="true">↗</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">Team Project • Project Head</p>
+                <h3>AMP College — Award-Winning Educational Website</h3>
+                <button class="project-link open-modal-btn" data-modal="modal-amp" type="button">
+                  Explore project <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 02 — LOTUS EYE CAPITAL -->
+            <article class="project-card reveal" id="lotus-project">
+              <div class="project-preview project-slider" data-slider data-autoplay="true" data-interval="5000"
+                aria-label="Lotus Eye Capital website project gallery">
+                <div class="preview-image-wrapper">
+                  <div class="project-slide active">
+                    <img src="img/lotus1.jpg" alt="Lotus Eye Capital website" class="project-image" width="1600"
+                      height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/lotus2.jpg" alt="Lotus Eye Capital responsive website" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/lotus3.jpg" alt="Lotus Eye Capital website interface" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-image-overlay" aria-hidden="true"></div>
+                  <button class="slider-arrow slider-prev" type="button"
+                    aria-label="Previous Lotus Eye Capital image">←</button>
+                  <button class="slider-arrow slider-next" type="button"
+                    aria-label="Next Lotus Eye Capital image">→</button>
+                  <div class="preview-label">
+                    <span>Insurance Firm Website</span>
+                    <span aria-hidden="true">↗</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">Freelance Web Development</p>
+                <h3>Lotus Eye Capital — Insurance Firm Website</h3>
+                <button class="project-link open-modal-btn" data-modal="modal-lotus" type="button">
+                  Explore project <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 03 — GOODLUCK COMPUTER CLASSES -->
+            <article class="project-card reveal" id="goodluck-computer-classes">
+              <div class="project-preview project-slider" data-slider data-autoplay="true" data-interval="4500"
+                aria-label="Good Luck Computer Classes website gallery">
+                <div class="preview-image-wrapper">
+                  <div class="project-slide active">
+                    <img src="img/goodluck1.jpg" alt="Good Luck Computer Classes Bhandara website homepage"
+                      class="project-image" width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/goodluck2.jpg" alt="Good Luck Computer Classes courses and training information"
+                      class="project-image" width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/goodluck3.jpg" alt="Good Luck Computer Classes admission enquiry interface"
+                      class="project-image" width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-image-overlay" aria-hidden="true"></div>
+                  <button class="slider-arrow slider-prev" type="button"
+                    aria-label="Previous Good Luck Computer Classes image">←</button>
+                  <button class="slider-arrow slider-next" type="button"
+                    aria-label="Next Good Luck Computer Classes image">→</button>
+                  <div class="preview-label">
+                    <span>Live Educational Website</span>
+                    <span aria-hidden="true">↗</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">Website Development • AI-Assisted Workflow</p>
+                <h3>Good Luck Computer Classes Bhandara — Educational Website</h3>
+                <button class="project-link open-modal-btn" data-modal="modal-goodluck" type="button">
+                  Explore project <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 04 — CAB FINDER -->
+            <article class="project-card reveal" id="cab-finder">
+              <div class="project-preview project-slider" data-slider data-autoplay="true" data-interval="5500"
+                aria-label="Cab Finder website project gallery">
+                <div class="preview-image-wrapper">
+                  <div class="project-slide active">
+                    <img src="img/cabfinder1.png" alt="Cab Finder web application" class="project-image" width="1600"
+                      height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/cabfinder2.png" alt="Cab Finder responsive interface" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-slide">
+                    <img src="img/cabfinder3.png" alt="Cab Finder digital product interface" class="project-image"
+                      width="1600" height="1000" loading="lazy" decoding="async">
+                  </div>
+                  <div class="project-image-overlay" aria-hidden="true"></div>
+                  <button class="slider-arrow slider-prev" type="button"
+                    aria-label="Previous Cab Finder image">←</button>
+                  <button class="slider-arrow slider-next" type="button" aria-label="Next Cab Finder image">→</button>
+                  <div class="preview-label">
+                    <span>Local Cab Service Platform</span>
+                    <span aria-hidden="true">↗</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">Freelance Web Development</p>
+                <h3>Cab Finder — Local Cab Service Platform</h3>
+                <button class="project-link open-modal-btn" data-modal="modal-cab" type="button">
+                  Explore project <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= DETAILED PROJECT MODALS (POPUP) ================= -->
+
+      <!-- MODAL 1: AMP COLLEGE -->
+      <div class="project-modal" id="modal-amp" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close" type="button" aria-label="Close modal">×</button>
+          <p class="project-category">Team Project • Project Head</p>
+          <h2>AMP College — Award-Winning Educational Website</h2>
+          <div class="project-achievement">
+            <span>State Level Tech Champion</span>
+            <span>Silver Prize</span>
+            <span>Project Head</span>
+          </div>
+          <p class="project-description">
+            Led the development of an educational website as Project Head, contributing to frontend development,
+            responsive UI and core project ideas.
+          </p>
+          <p class="project-description">
+            Implemented features including <strong>EmailJS-powered contact messaging</strong> and frontend interactions,
+            helping the project earn the <strong>Silver Prize</strong> at the Inter Polytechnic State Level competition.
+          </p>
+          <div class="project-tags">
+            <span>State Level Tech Champion</span>
+            <span>Silver Prize</span>
+            <span>Project Head</span>
+            <span>Frontend Development</span>
+            <span>Web Development</span>
+            <span>Responsive Design</span>
+            <span>UI/UX</span>
+            <span>EmailJS</span>
+            <span>Git &amp; GitHub</span>
+            <span>Team Collaboration</span>
+          </div>
+          <a href="https://ampcollege.github.io" target="_blank" rel="noopener noreferrer"
+            class="button button-primary">
+            Visit Live Website <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- MODAL 2: LOTUS EYE CAPITAL -->
+      <div class="project-modal" id="modal-lotus" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close" type="button" aria-label="Close modal">×</button>
+          <p class="project-category">Freelance Web Development</p>
+          <h2>Lotus Eye Capital — Insurance Firm Website</h2>
+          <p class="project-description">
+            Designed and developed a modern, responsive website for Lotus Eye Capital, tailored to business requirements
+            and focused on strengthening its digital presence and customer reach.
+          </p>
+          <div class="project-tags">
+            <span>Freelance Client</span>
+            <span>Insurance Firm</span>
+            <span>Frontend Development</span>
+            <span>Web Development</span>
+            <span>Responsive UI</span>
+            <span>Modern UI</span>
+            <span>UI/UX</span>
+            <span>Business-Focused Design</span>
+          </div>
+          <a href="https://lotuseyecapital.github.io" target="_blank" rel="noopener noreferrer"
+            class="button button-primary">
+            Visit Live Website <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- MODAL 3: GOOD LUCK COMPUTER CLASSES -->
+      <div class="project-modal" id="modal-goodluck" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close" type="button" aria-label="Close modal">×</button>
+          <p class="project-category">Website Development • AI-Assisted Workflow</p>
+          <h2>Good Luck Computer Classes Bhandara — Educational Website</h2>
+          <div class="project-achievement">
+            <span>Live Website</span>
+            <span>Responsive Design</span>
+            <span>AI-Assisted Development</span>
+          </div>
+          <p class="project-description">
+            Designed and developed a website for Good Luck Computer Classes, Bhandara, to showcase the institute, its
+            computer training courses and student enquiry options through a clear, user-friendly online experience.
+          </p>
+          <p class="project-description">
+            Built using <strong>HTML, CSS and JavaScript</strong>, with <strong>AI prompting</strong> to assist with
+            coding, troubleshooting and interface improvements.
+          </p>
+          <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>AI Prompting</span>
+            <span>Frontend Development</span>
+            <span>Responsive Design</span>
+            <span>UI/UX</span>
+            <span>Educational Website</span>
+          </div>
+          <a href="https://akshaet4-bot.github.io/Goodluck/" target="_blank" rel="noopener noreferrer"
+            class="button button-primary">
+            Visit Live Website <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- MODAL 4: CAB FINDER -->
+      <div class="project-modal" id="modal-cab" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close" type="button" aria-label="Close modal">×</button>
+          <p class="project-category">Freelance Web Development</p>
+          <h2>Cab Finder — Local Cab Service Platform</h2>
+          <p class="project-description">
+            Designed and developed a modern, responsive web platform for local cab drivers to establish a digital
+            presence, showcase their services and connect with customers through a streamlined online experience.
+          </p>
+          <div class="project-tags">
+            <span>Freelance Client</span>
+            <span>Web Development</span>
+            <span>Frontend Development</span>
+            <span>Responsive UI</span>
+            <span>UI/UX</span>
+            <span>Local Cab Services</span>
+          </div>
+          <a href="https://freelancingbyakshat.github.io/cabfinder/" target="_blank" rel="noopener noreferrer"
+            class="button button-primary">
+            Visit Live Website <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+
+
+      <!-- ABOUT -->
+      <section id="about" class="section about-section" aria-labelledby="about-title">
+        <div class="container">
+          <div class="about-grid">
+            <div class="section-intro reveal">
+              <span class="section-eyebrow">About LotusCraftt</span>
+              <h2 id="about-title">More than just code.</h2>
+              <p>Building digital experiences that elevate brands, engage customers, and drive meaningful business
+                growth.</p>
+            </div>
+            <div class="about-copy reveal">
+              <p>Great digital products go beyond visual appeal. They combine performance, usability, and purposeful
+                design to create seamless customer experiences while delivering meaningful value to businesses.</p>
+              <p>Combining web development, interface design, and product thinking to build digital experiences that are
+                technically precise, visually distinctive, and aligned with both customer expectations and business
+                goals.</p>
+              <div class="about-principles">
+                <div><span>01</span><strong>Think strategically</strong></div>
+                <div><span>02</span><strong>Design intentionally</strong></div>
+                <div><span>03</span><strong>Build precisely</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAPABILITIES -->
+      <section id="capabilities" class="section capabilities-section" aria-labelledby="capabilities-title">
+        <div class="container">
+          <div class="section-intro reveal">
+            <span class="section-eyebrow">Capabilities</span>
+            <h2 id="capabilities-title">Turning ideas into digital products.</h2>
+            <p>A strategic combination of web development, interface design, and product thinking — creating digital
+              experiences that are functional, distinctive, and aligned with real user and business needs.</p>
+          </div>
+
+          <div class="capabilities-grid">
+            <article class="capability-card reveal">
+              <div class="capability-icon" aria-hidden="true">&lt;/&gt;</div>
+              <span class="capability-number">01</span>
+              <h3>Web Development</h3>
+              <p>Modern, reliable websites built with clean architecture, purposeful functionality and a strong
+                foundation for long-term performance.</p>
+            </article>
+
+            <article class="capability-card reveal">
+              <div class="capability-icon" aria-hidden="true">◈</div>
+              <span class="capability-number">02</span>
+              <h3>Frontend Engineering</h3>
+              <p>Precise, component-driven interfaces with strong visual hierarchy, thoughtful interactions and
+                attention to every detail.</p>
+            </article>
+
+            <article class="capability-card reveal">
+              <div class="capability-icon" aria-hidden="true">▣</div>
+              <span class="capability-number">03</span>
+              <h3>Responsive &amp; Accessible</h3>
+              <p>Interfaces designed to remain clear, consistent and intuitive across devices, screen sizes and
+                different user needs.</p>
+            </article>
+
+            <article class="capability-card reveal">
+              <div class="capability-icon" aria-hidden="true">ϟ</div>
+              <span class="capability-number">04</span>
+              <h3>Performance &amp; Optimization</h3>
+              <p>Fast, efficient experiences optimized for loading speed, smooth interaction, accessibility and
+                real-world usability.</p>
+            </article>
+          </div>
+
+          <!-- TECHNOLOGY STACK -->
+          <div class="skills-panel skills-interactive reveal" data-cursor-glow>
+            <div class="skills-glow" aria-hidden="true"></div>
+            <div class="skills-glow skills-glow-secondary" aria-hidden="true"></div>
+            <div class="skills-particles" aria-hidden="true"></div>
+            <div class="skills-panel-content">
+              <div class="skills-panel-heading">
+                <span class="panel-label">Technology Stack</span>
+                <h3>Modern tools. <br> <span>Practical execution.</span></h3>
+                <p>The tools and capabilities I use to design, build, optimize and deploy modern digital experiences.
+                </p>
+              </div>
+              <div class="skills-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>UI/UX</span>
+                <span>Responsive Design</span>
+                <span>EmailJS</span>
+                <span>AI Prompting</span>
+                <span>Git &amp; GitHub</span>
+                <span>Web Deployment</span>
+                <span>Web Performance</span>
+                <span>Digital Marketer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process" class="section process-section" aria-labelledby="process-title">
+        <div class="container">
+          <div class="process-heading">
+            <div>
+              <span class="section-eyebrow">Process</span>
+              <h2 id="process-title">From first idea <br> to final detail.</h2>
+            </div>
+            <p>A disciplined process creates clarity at every stage — from the first conversation to the final
+              interaction.</p>
+          </div>
+
+          <div class="process-list">
+            <article class="process-item reveal">
+              <span class="process-number">01</span>
+              <div class="process-title">
+                <h3>Understand</h3>
+              </div>
+              <p>Every strong experience starts with clarity. I understand the product, audience, business objective and
+                the problem that actually needs solving.</p>
+              <span aria-hidden="true">→</span>
+            </article>
+
+            <article class="process-item reveal">
+              <span class="process-number">02</span>
+              <div class="process-title">
+                <h3>Structure</h3>
+              </div>
+              <p>Ideas become an intentional information architecture where content, hierarchy and interactions have a
+                clear purpose.</p>
+              <span aria-hidden="true">→</span>
+            </article>
+
+            <article class="process-item reveal">
+              <span class="process-number">03</span>
+              <div class="process-title">
+                <h3>Design</h3>
+              </div>
+              <p>Typography, spacing, composition, color and motion come together to establish a visual language that
+                feels distinctive and purposeful.</p>
+              <span aria-hidden="true">→</span>
+            </article>
+
+            <article class="process-item reveal">
+              <span class="process-number">04</span>
+              <div class="process-title">
+                <h3>Build</h3>
+              </div>
+              <p>The experience is translated into clean, maintainable and production-ready code with responsive
+                behavior built from the ground up.</p>
+              <span aria-hidden="true">→</span>
+            </article>
+
+            <article class="process-item reveal">
+              <span class="process-number">05</span>
+              <div class="process-title">
+                <h3>Refine</h3>
+              </div>
+              <p>The final layer is where polish happens — transitions, spacing, accessibility, performance and the
+                small details people remember.</p>
+              <span aria-hidden="true">→</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+
+        <div class="container">
+
+          <div class="contact-card reveal">
+
+            <div class="contact-glow" aria-hidden="true"></div>
+
+            <!-- Section Heading -->
+            <div class="contact-header">
+
+              <span class="section-eyebrow">
+                Let's build something
+              </span>
+
+              <h2 id="contact-title">
+                Have an idea?
+                <br>
+                <span>Let's make it real.</span>
+              </h2>
+
+              <p>
+                Have a project in mind? Let's discuss your ideas,
+                understand your requirements and build something
+                meaningful together.
+              </p>
+
+            </div>
+
+            <!-- Contact Form -->
+            <form id="freelance-contact-form" class="freelance-contact-form" action="mailto:akshaetshukla.dev@gmail.com"
+              method="post" enctype="text/plain">
+
+              <div class="form-grid">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="client-name">
+                    Full Name <span>*</span>
+                  </label>
+
+                  <input type="text" id="client-name" name="Full Name" placeholder="Enter your full name"
+                    autocomplete="name" required>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                  <label for="client-phone">
+                    Phone Number <span>*</span>
+                  </label>
+
+                  <input type="tel" id="client-phone" name="Phone Number" placeholder="+91 98765 43210"
+                    autocomplete="tel" pattern="[0-9+() -]{10,18}" title="Please enter a valid phone number" required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="client-email">
+                    Email Address <span>*</span>
+                  </label>
+
+                  <input type="email" id="client-email" name="Email Address" placeholder="you@example.com"
+                    autocomplete="email" required>
+                </div>
+
+                <!-- Interested In -->
+                <div class="form-group">
+                  <label for="project-type">
+                    Interested In <span>*</span>
+                  </label>
+
+                  <select id="project-type" name="Interested In" required>
+                    <option value="" disabled selected>
+                      Select a service
+                    </option>
+
+                    <option value="Website Development">
+                      Website Development
+                    </option>
+
+                    <option value="Website Redesign">
+                      Website Redesign
+                    </option>
+
+                    <option value="Existing Website Update">
+                      Existing Website Update
+                    </option>
+
+                    <option value="E-commerce Website">
+                      E-commerce Website
+                    </option>
+
+                    <option value="Landing Page">
+                      Landing Page Development
+                    </option>
+
+                    <option value="Digital Marketing">
+                      Digital Marketing
+                    </option>
+
+                    <option value="SEO">
+                      SEO & Website Optimization
+                    </option>
+
+                    <option value="Portfolio Website">
+                      Portfolio Website
+                    </option>
+
+                    <option value="Web Application">
+                      Web Application
+                    </option>
+
+                    <option value="Other">
+                      Other
+                    </option>
+                  </select>
+                </div>
+
+                <!-- Project Details -->
+                <div class="form-group form-group-full">
+                  <label for="project-details">
+                    Tell me about your project
+                  </label>
+
+                  <textarea id="project-details" name="Project Details" rows="5"
+                    placeholder="Briefly describe your idea, requirements or the changes you want in your existing website..."></textarea>
+                </div>
+
+              </div>
+
+              <!-- Submit -->
+              <button type="submit" class="button button-primary freelance-submit-btn">
+                Send Project Enquiry
+                <span aria-hidden="true">↗</span>
+              </button>
+
+              <!-- Email Instructions -->
+              <p class="form-note">
+                <span aria-hidden="true">✉</span>
+                After submitting, your email app will open with
+                your enquiry ready to send. Please press
+                <strong>Send</strong> in your email app to complete
+                the submission.
+              </p>
+
+            </form>
+
+            <!-- Social Links -->
+            <div class="contact-socials">
+
+              <a href="https://instagram.com/akshaetshukla.dev" target="_blank" rel="noopener noreferrer"
+                class="social-button">
+                Instagram <span aria-hidden="true">↗</span>
+              </a>
+
+              <a href="mailto:akshaetshukla.dev@gmail.com" class="social-button">
+                Email <span aria-hidden="true">↗</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- ==========================================
+     LOTUSCRAFTT — COMPACT PREMIUM FOOTER
+========================================== -->
+
+    <footer class="lc-footer" id="footer">
+
+      <div class="lc-footer-container">
+
+        <!-- MAIN FOOTER -->
+        <div class="lc-footer-main">
+
+          <!-- BRAND -->
+          <div class="lc-footer-brand">
+
+            <a href="#home" class="lc-footer-logo">
+              <img src="img/Logo.png" alt="LotusCraftt Logo" class="lc-footer-logo-image">
+
+              <span class="lc-footer-logo-name">
+                LOTUSCRAFTT
+              </span>
+            </a>
+
+            <p class="lc-footer-description">
+              Crafting modern digital experiences
+              with creativity, precision and purpose.
+            </p>
+
+            <div class="lc-footer-location">
+              <span class="lc-footer-location-dot"></span>
+              Based in India · Working worldwide
+            </div>
+
+          </div>
+
+
+          <!-- NAVIGATION -->
+          <div class="lc-footer-column">
+
+            <h3 class="lc-footer-heading">
+              NAVIGATION
+            </h3>
+
+            <nav class="lc-footer-nav" aria-label="Footer navigation">
+
+              <button type="button" data-scroll="work">
+                Work
+              </button>
+
+              <button type="button" data-scroll="about">
+                About
+              </button>
+
+              <button type="button" data-scroll="capabilities">
+                Capabilities
+              </button>
+
+              <button type="button" data-scroll="process">
+                Process
+              </button>
+
+            </nav>
+
+          </div>
+
+
+          <!-- WHAT I DO -->
+          <div class="lc-footer-column lc-footer-services">
+
+            <h3 class="lc-footer-heading">
+              WHAT I DO
+            </h3>
+
+            <div class="lc-footer-service-list">
+
+              <a href="#contact">Website Development</a>
+
+              <a href="#contact">Website Redesign</a>
+
+              <a href="#contact">Existing Website Update</a>
+
+              <a href="#contact">E-commerce Website</a>
+
+              <a href="#contact">Landing Page Development</a>
+
+              <a href="#contact">Digital Marketing</a>
+
+              <a href="#contact">SEO & Website Optimization</a>
+
+              <a href="#contact">Portfolio Website</a>
+
+              <a href="#contact">Web Application</a>
+
+            </div>
+
+          </div>
+
+
+          <!-- CONNECT -->
+          <div class="lc-footer-column lc-footer-connect">
+
+            <h3 class="lc-footer-heading">
+              CONNECT
+            </h3>
+
+            <div class="lc-footer-social-links">
+
+              <a href="https://instagram.com/akshaetshukla.dev" target="_blank" rel="noopener noreferrer">
+                Instagram <span>↗</span>
+              </a>
+
+              <a href="mailto:akshaetshukla.dev@gmail.com">
+                Email <span>↗</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+        <div class="lc-footer-bottom">
+
+          <!-- COPYRIGHT -->
+          <div class="lc-footer-copyright">
+
+            <span>©</span>
+
+            <span id="lc-footer-year">2026</span>
+
+            <span class="lc-footer-copyright-divider">/</span>
+
+            <span>All rights reserved.</span>
+
+          </div>
+
+
+          <!-- DEVELOPER ADVERTISEMENT -->
+          <div class="dev-master-badge">
+
+            <div class="dev-badge-glow"></div>
+
+            <div class="dev-badge-inner">
+
+              <span class="dev-crafted-text">
+                Crafted with
+                <span class="glowing-heart">♥</span>
+                by
+              </span>
+
+              <div class="dev-identity-pill">
+
+                <a href="https://Lotuscraftt.github.io" target="_blank" rel="noopener noreferrer"
+                  class="dev-brand-anchor" title="Explore LotusCraftt">
+
+                  <span class="dev-brand-gold">
+                    LOTUSCRAFTT
+                  </span>
+
+                  <span class="dev-separator">•</span>
+
+                  <span class="dev-sub-tag">
+                    Akshaet Shukla
+                  </span>
+
+                </a>
+
+                <!-- SOCIAL QUICK LINKS -->
+                <div class="dev-launchpad">
+
+                  <a href="https://instagram.com/akshaetshukla.dev" target="_blank" rel="noopener noreferrer"
+                    class="dev-launch-btn insta-btn" title="Follow on Instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a href="mailto:akshaetshukla.dev@gmail.com" class="dev-launch-btn email-btn"
+                    title="Send Direct Email" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- BACK TO TOP -->
+          <button type="button" class="lc-footer-back-top" id="lc-footer-back-top" aria-label="Back to top">
+
+            <span>TOP</span>
+
+            <span class="lc-footer-back-top-icon">
+              ↑
+            </span>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
